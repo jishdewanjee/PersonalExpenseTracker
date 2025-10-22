@@ -1,5 +1,4 @@
 date,category,amount,description
-2025-10-20,sick,9000.00,
 2025-10-20,,7000.00,
 2025-10-01,Food,12.99,Burrito bowl
 2025-10-02,Travel,45.50,Uber to airport
@@ -21,6 +20,54 @@ date,category,amount,description
 2025-10-16,Groceries,150.00,Weekly shop
 2025-10-17,Shopping,100.00,Clothes
 2025-10-18,Travel,33.33,Train ticket
+2025-09-01,Food,1.00,r
+2025-09-02,Food,2.00,r
+2025-09-03,Food,3.00,r
+2025-09-04,Food,4.00,r
+2025-09-05,Food,5.00,r
+2025-09-06,Food,6.00,r
+2025-09-07,Food,7.00,r
+2025-09-08,Food,8.00,r
+2025-09-09,Food,9.00,r
+2025-09-10,Food,10.00,r
+2025-09-11,Food,11.00,r
+2025-09-12,Food,12.00,r
+2025-09-13,Food,13.00,r
+2025-09-14,Food,14.00,r
+2025-09-15,Food,15.00,r
+2025-09-16,Food,16.00,r
+2025-09-17,Food,17.00,r
+2025-09-18,Food,18.00,r
+2025-09-19,Food,19.00,r
+2025-09-20,Food,20.00,r
+2025-09-21,Food,21.00,r
+2025-09-22,Food,22.00,r
+2025-09-23,Food,23.00,r
+2025-09-24,Food,24.00,r
+2025-09-25,Food,25.00,r
+2025-09-26,Food,26.00,r
+2025-09-27,Food,27.00,r
+2025-09-28,Food,28.00,r
+2025-09-29,Food,29.00,r
+2025-09-30,Food,30.00,r
+2025-10-01,Food,12.99,Burrito bowl
+2025-10-02,Travel,45.50,Uber to airport
+2025-10-03,Groceries,87.23,Costco run
+2025-10-04,,19.99,Missing category
+2025-10-06,Food,15.75,"Sandwich, chips, and ""sparkling water"""
+2025-10-07,Misc,5.00,Multiline description line 1
+2025-10-08,Entertainment,19.99,Movie night – Dune 2 🎬🍿
+2025-10-09,Gifts,25.00,Gift for Rādhā Rāṇī 🌸 (diacritics test)
+2025-10-10,Notes,1.00,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+2025-10-11,food,10.00,lunch
+2025-10-12, Food ,12.00,snack
+2025-10-13,FOOD,8.00,coffee
+2025-10-14,Bills,120.00,Internet bill
+2025-10-15,Bills,80.00,Electricity
+2025-10-16,Groceries,150.00,Weekly shop
+2025-10-17,Shopping,100.00,Clothes
+2025-10-18,Travel,33.33,Train ticket
+2025-10-19,Travel,12.00,Bus
 2025-09-01,Food,1.00,r
 2025-09-02,Food,2.00,r
 2025-09-03,Food,3.00,r
