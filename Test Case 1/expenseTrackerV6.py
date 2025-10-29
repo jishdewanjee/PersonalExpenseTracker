@@ -1,9 +1,8 @@
 import csv, json, os
 from datetime import datetime
 
-# -------------------------------
-# Expense "thingy" - one record
-# -------------------------------
+
+# Expense Object
 class Expense:
     def __init__(self, date, category, amount, description):
         self.date = date
@@ -30,9 +29,8 @@ class Expense:
             d.get('description','')
         )
     
-# -------------------------------------
+
 # File work: Save & Load
-# -------------------------------------
 class ExpenseStorage:
     #save CSV file path
     def __init__(self, filePath='expenses.csv'):
@@ -70,9 +68,8 @@ class ExpenseStorage:
             print("Couldn’t load CSV:", oops)
         return data
 
-# -------------------------------------
+
 # Budget Manager
-# -------------------------------------
 class BudgetManager:
     #Not hard coding budget since hardcoding it would mean it would reset every time the program ended.
     #Using Json file to store it just to mess with json.
@@ -122,20 +119,20 @@ class BudgetManager:
         print("Your total spent:", round(total,2))
         print("Budget:", round(self.monthlyBudget,2))
         if remaining < 0:
-            print("💸 Over budget by", abs(remaining))
+            print("💸 Over budget by", abs(remaining)) #Returns absolute number
         else:
             print("You still have", remaining, "left.")
 
-# -------------------------------------
+
 # Expense Tracker
-# -------------------------------------
 class ExpenseTracker:
     def __init__(self, storage, budgetMgr):
-        self.storage = storage
-        self.budgetMgr = budgetMgr
+        self.storage = storage #Handles file saving/loading
+        self.budgetMgr = budgetMgr #Handles budget
         self.expenses = []
 
     def validateStuff(self, dateStr, cat, amtStr, desc):
+        #Empty Test Case
         if not dateStr or not amtStr:
             return "Missing required info!"
         try:
@@ -223,9 +220,8 @@ class ExpenseTracker:
     def loadAll(self):
         self.expenses = self.storage.loadFromCsv()
 
-# -------------------------------------
+
 # Main App
-# -------------------------------------
 class ExpenseApp:
     def __init__(self):
         self.store = ExpenseStorage()
