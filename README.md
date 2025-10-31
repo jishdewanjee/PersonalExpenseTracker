@@ -22,12 +22,13 @@ The goal was to build something functional while also exploring concepts like va
 - datetime  
 
 ## 🚀 How to Run
-### Option 1 – Python file
+
+### 🖥️ Option 1 – Run as a Python file
 ```bash
 python expenseTrackerFinal.py
-
-### Option 2 - Jupyter notebook
-
+```
+---
+### Option 2 – Jupyter notebook
 Open expenseTrackerFinal.ipynb and run all cells.
 
 📂 Files
@@ -57,7 +58,7 @@ pycache/
 Jupyter
 .ipynb_checkpoints/
 
-Data files (optional)
+Data files (auto-generated)
 expenses.csv
 budget.json
 
@@ -70,7 +71,7 @@ env/
 Generate automatically:
 ```bash
 pip freeze > requirements.txt
-
+```
 
 LICENSE
 For open source sharing, use MIT License:
