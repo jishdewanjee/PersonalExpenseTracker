@@ -45,8 +45,19 @@ requirements.txt – dependencies (optional)
 💰 Remaining budget: $1265.50
 ```
 
-## 🙌 Acknowledgments
-Grateful for the feedback and guidance from my instructors and peers!
+## 🤝 Contributing
+
+We welcome contributions of all kinds — bug fixes, feature enhancements, refactoring, or documentation improvements.
+
+To get started:
+1. Fork the repo
+2. Clone your fork: `git clone https://github.com/your-username/PersonalExpenseTracker.git`
+3. Create a new branch: `git checkout -b feature-name`
+4. Make your changes and commit: `git commit -m "Add feature"`
+5. Push to your fork: `git push origin feature-name`
+6. Open a Pull Request
+
+Check out [`CONTRIBUTING.md`](CONTRIBUTING.md) for more details.
 
 ---
 
