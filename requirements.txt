@@ -1,1 +1,1 @@
-You can include anything imported beyond Python’s standard library.
+streamlit>=1.28.0
